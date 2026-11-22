@@ -1,0 +1,37 @@
+{
+  "name": "@mesh/bch-xo-templates",
+  "version": "1.0.0",
+  "description": "Standard XO Templates and WalletConnect/bch_signTransaction adapters for Mesh BCH Covenants",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/meshintentsprotocol/mesh-xo-templates.git"
+  },
+  "homepage": "https://github.com/meshintentsprotocol/mesh-xo-templates#readme",
+  "bugs": {
+    "url": "https://github.com/meshintentsprotocol/mesh-xo-templates/issues"
+  },
+  "license": "MIT",
+  "keywords": [
+    "bitcoin-cash",
+    "bch",
+    "xo-stack",
+    "covenants",
+    "cashtokens",
+    "intents",
+    "templates"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@bitauth/libauth": "^3.1.0-next.8"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.2",
+    "vitest": "^2.1.9"
+  }
+}
